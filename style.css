@@ -1,0 +1,34 @@
+body 
+{
+    background-color: #cfe2f3; 
+}
+
+#pokemonTable th 
+{
+    background-color: #ebc19a; 
+}
+
+#pokemonTable tbody 
+{
+    background-color: #ffcccc; 
+}
+
+#pokemonTable tbody tr:nth-child(odd)  
+{
+    background-color: #acdfdf; 
+}
+#pokemonTable_wrapper 
+{
+    position: relative;
+}
+
+#pokemonImage 
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+    border-radius: 50%; 
+}
+
